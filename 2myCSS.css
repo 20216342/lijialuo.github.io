@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+	box-sizing: border-box ;
+  }
+    header,main,div#bookface,nav,footer{
+	 margin:1em;
+	}
+    header{
+      border: 2px solid blue;
+      height: 15%;
+      font-size: 1.66em;
+      
+    }
+    main{
+      border: 2px solid blue;
+      height: 70%;
+      font-size: 1.2em;
+      
+    }
+    nav{
+      border: 2px solid blue;
+      height: 10%;
+         }
+    nav button{
+	 font-size: 1.1em;
+	}
+    footer{
+      border: 2px solid blue;
+      height: 5%;
+    } 
+    body{
+	 position:relative ;
+	}
+  #aid{
+    position: absolute;
+    border: 3px solid blue;
+    top: 0.5em;
+    left: 600px;
+  }
+  #bookface{
+    width: 80%;
+    height: 80%;
+    border:1px solid red;
+    background-color: blanchedalmond;
+    margin:auto;
+  }
